@@ -1,15 +1,18 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #1d2671, #c33764);
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .calculator {
-    width: 340px;
+    width: 90%;
+    max-width: 420px;   
     background: #111;
     border-radius: 18px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -103,8 +106,19 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .calculator {
-        width: 92%;
+        width: 95%;
+        max-width: none;
+    }
+
+    #display {
+        height: 60px;
+        font-size: 28px;
+    }
+
+    .buttons button {
+        height: 60px;
+        font-size: 22px;
     }
 }
