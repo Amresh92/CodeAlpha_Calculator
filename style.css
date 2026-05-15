@@ -108,17 +108,33 @@ body {
 
 @media (max-width: 600px) {
     .calculator {
-        width: 95%;
+        width: 98%;          
         max-width: none;
+        border-radius: 20px;
+    }
+
+    .calc-body {
+        padding: 22px;
     }
 
     #display {
-        height: 60px;
-        font-size: 28px;
+        height: 70px;        
+        font-size: 32px;
     }
 
     .buttons button {
-        height: 60px;
-        font-size: 22px;
+        height: 70px;        
+        font-size: 26px;
+        border-radius: 14px;
+    }
+
+    .top-bar {
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .top-bar button {
+        padding: 8px 12px;
+        font-size: 18px;
     }
 }
