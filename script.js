@@ -82,7 +82,7 @@ function fullScreenCalc() {
     }
 }
 
-// Keyboard support
+
 document.addEventListener("keydown", function(event) {
     let key = event.key;
 
